@@ -13,19 +13,7 @@
 
 </head>
 
-<body style=" background-color: #EBEBD3;" >
-  <style>
-    input[type=submit] {
-  width: 7%;
-  background-color: blue;
-  color: white;
-  padding: 7px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-  </style>
+<body class="enroll-page">
 
     <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #083d77;">
     <div class="container-fluid">
@@ -57,9 +45,11 @@
     </div>
 </nav>
 
-    <div class="container border mt-4">
+<div class="page-bg">
+  <div class="page-box">
+
       <center>
-  <h2>Operation Brotherhood Montessori Center</h2><br>
+  <h2 class="pr" style="color: #DA4167;">Operation Brotherhood Montessori Center</h2><br>
       </center>  
   <p>Welcome to O.B. Montessori Center!</p>
   <p>Thank you for considering our school for your child's education. Our application process is now online for your convenience. Please follow these steps to complete your application. We look forward to receiving your application and welcoming you to the O.B. Montessori Center community!</p>
@@ -68,7 +58,7 @@
 <div class="student_info border mt-2 p-2">
   <div class="personal_info border mt-2 p-2">
       <div class="container row"> 
-        <h2 class="bg-primary text-white">Admission form</h2><br>
+        <h2 class="text-white" style="background-color: #DA4167;">Admission Form</h2><br>
         <!-- Campus Selection -->
           <div class="col-md-4">
           <label for="campus">Campus</label>
@@ -456,7 +446,7 @@
   <div class="student_background">
     <div class="border mt-2 p-3">
       <div class="container row ">
-        <h2 class="bg-primary text-white">Educational Background</h2><br>
+        <h2 class="text-white" style="background-color: #DA4167;">Educational Background</h2><br>
         <h4>Prep/Kinder/Nursery</h4><br>
 
         <div class="col-md-3">
@@ -642,7 +632,7 @@
   <div class="mother_info border mt-3 p-3">
     <!-- Name -->       
     <div class="container row"> 
-      <h2 class="bg-primary text-white">Family Background</h2><br>
+      <h2 class="text-white" style="background-color: #DA4167;">Family Background</h2><br>
       <h4>Mother's Information</h4><br>
 
         <div class="col-md-3">
@@ -1019,7 +1009,7 @@
 
     <div class="Alumni border mt-3 p-3">
       <div class="container row mt-3 p-3">
-        <h2 class="bg-primary text-white">Alumni</h2>
+        <h2 class="text-white" style="background-color: #DA4167;">Alumni</h2>
           <h4>Alumni information</h4>
           <p>Are there family members who are graduates of OPERATION BROTHERHOOD MONTESSORI CENTER - AN?</p>
 
@@ -1055,12 +1045,13 @@
       </div>
     </div>
 <center>
-    <input type="submit" value="Submit">
+    <input type="submit" id="submit" value="Submit">
 </center>
-</div>
-    
 
-    
+
+  </div>
+</div>
+
     <footer class="text-center py-3 text-light mt-auto" style="background-color: #083d77;">
     &copy; 2025 OB Montessori Center
     </footer>
