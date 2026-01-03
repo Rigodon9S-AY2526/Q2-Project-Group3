@@ -185,3 +185,13 @@
     .bottom .box {
       width: 45%;
     }
+
+        div {
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+            text-shadow: 6px 5px 6px rgba(0,0,0,0.33);
+        }
+        
+        form {
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+            text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.33);
+        }
