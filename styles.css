@@ -156,7 +156,7 @@
     }
 
     .navbar {
-    min-height: auto;
+    min-height: 20px;
     }
 
 .team-img {
@@ -217,7 +217,7 @@ p{
 }
 
  .navbar-brand img {
-  width: 80px;
+  width: 50px;
   height: auto;
   border-radius: 0;
 }
